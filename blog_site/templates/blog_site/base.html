@@ -1,0 +1,25 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static "css/blog_site.css" %}" rel="stylesheet">
+</head>
+<body>
+<div id="pattern"></div>
+    <div id="header">
+        <div class="menu" id="logo"><b>#blog</b></div>
+        <div class="menu" id="nav_bar">
+            <a href="{% url "blog_site:post_list" %}">Recently</a>
+            <a href="{% url "blog_site:post_list" %}">Best of Month</a>
+            <a>People</a>
+        </div>
+        <div class="menu" id="profile">Profile of user</div>
+    </div>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
