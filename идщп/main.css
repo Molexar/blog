@@ -1,0 +1,281 @@
+@media (max-width: 1080px) {
+	.bottom_wrapper, .footer_container, .content_block, .content_wrapper, .main_head {
+	width: 800px;
+}	
+.search { margin-right: 20px }
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bottom_wrapper, .footer_container, .content_block, .content_wrapper, .main_head {
+	width: 1080px;
+}
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans';
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pat img {
+	width: auto;
+	height: 40px;
+}
+
+.pat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	background: url(shattered-island.gif);
+}
+
+.header_block {
+	color: #242424;
+	width: 230px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px; 
+}
+
+.header_block h3 {
+	margin-left: 12px;
+}
+
+.menu_block {
+	display: flex;
+	align-items: center;
+	margin-right: 40px;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu li {
+	color: #242424;
+	margin: 5px;
+	list-style-type: none;
+	cursor: pointer;
+	padding: 0 8px 3px 8px;
+	border: 2px solid white;
+	transition: .2s;
+}
+
+.menu li:hover {
+	font-weight: bold;
+	border: 2px solid #242424;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	margin-left: 15px;
+	color: #ec5c1f;
+	cursor: text;
+	padding: 8px;
+	border: 2px solid #ec5c1f;
+	width: 100%;
+	height: 35px;
+	transition: .2s;
+}
+
+.search:hover {
+	background: #242424;
+	color: white;
+}
+
+.search i {
+	margin-right: 5px;
+}
+
+.userpic {
+	border-radius: 50%;
+	float: right;
+	width: 35px;
+	height: 35px;
+	border: 3px solid #242424;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.userpic img {
+	border-radius: 50%;
+	width: 29px;
+	height: auto;
+}
+
+.title {
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 18px; 
+}
+
+.content {
+	color: white;
+	padding: 20px 20px 0 20px; 
+	width: 100%;
+	height: auto;
+	background: #242424;
+	display: flex;
+	justify-content: center;
+}
+
+.content_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+#content_wrapper_border {
+	margin-top: 20px;
+	width: 220px;
+	height: auto;
+}
+
+.left_block {
+	margin-bottom: 20px;
+	height: 100px;
+	border: 3px solid white;	
+}
+
+.ad {
+	margin-bottom: 20px;
+	height: 500px;
+	border: 3px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content_head {
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content_block {
+	padding: 20px;
+	margin-bottom: 20px;
+	height: auto;
+	border: 3px solid #ec5c1f;
+}
+
+.user, .date {
+	width: 200px;
+}
+
+.date_text {
+	float: right;
+}
+
+.hr {
+	height: 2px;
+	background: white;
+	margin-top: 20px;
+}
+
+.p {
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+#userpic {
+	border: 2px solid white;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+.content_text {
+	margin-top: 20px;
+}
+
+.footer {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	background: white;
+}
+
+.footer_container {
+	background: #242424;
+}
+
+.social_block {
+	background: white;
+	cursor: pointer;
+	color: #242424;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#facebook:hover { color: #3b5998; }
+#pinterest:hover { color: #cc1f27; }
+#twitter:hover { color: #1faee9; }
+#vk:hover { color: #4d7198;}
+
+
+.be_img { width: 20px; height: auto; }
+
+.bottom {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+	height: 50px;
+	background: #242424;
+}
+
+.bottom_wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.container {
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	display: flex;
+}
+
+.mid_s {
+	height: 24px;
+	padding: 3px;
+	border: 1px solid white;
+	font-size: 8pt;
+}
+
+.mid_s:hover {
+	border: 1px solid #ec5c1f;
+	color: #ec5c1f;
+}
